@@ -27,7 +27,7 @@ async function onPageLoad() {
 				renderAt('#racers', html)
 			})
 	} catch(error) {
-		console.log("Problem getting tracks and racers ::", error.message)
+		console.log("Problem getting tracks and racers and ::", error.message)
 		console.error(error)
 	}
 }
